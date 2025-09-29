@@ -71,7 +71,7 @@ There are 3 folders in the directory:
   import numpy as np
   
   ## Load data and run minimac
-  data = pd.read_csv('../SPY_20141215_1s.csv')
+  data = pd.read_csv('../SPY_20141215_1s.csv') # input your data here
   y = np.log(data['PRICE'])
   stat = minimac(y,1/252)
   summary_minimac(stat)
