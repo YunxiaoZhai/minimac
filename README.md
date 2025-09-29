@@ -16,7 +16,7 @@ H(Y;k)_t^n:=\frac{F(Y;k)_t^n}{\sqrt{\Phi_k\:Q(Y)_t^n}}
 $$
 is derived from
 $$
-F(Y;k)_t^n:=\frac{1}{2k}\sum_{i=k+1}^{n_t-k}f(Y;k)_i^n,\quad f(Y;k)_i^n\::=\:(Y_i^n-Y_{i-k}^n)(Y_{i+k}^n-Y_i^n),\quad \Phi_k:=\frac16(k+\frac1{2k}), \quad Q(Y)_t^n:=\sum_{i=2}^{n_t-1}(f(Y;1)_i^n)^2
+F(Y;k)_t^n:=\frac{1}{2k}\sum_{i=k+1}^{n_t-k}f(Y;k)_i^n,\quad f(Y;k)_i^n:=(Y_i^n-Y_{i-k}^n)(Y_{i+k}^n-Y_i^n),\quad \Phi_k:=\frac16(k+\frac1{2k}), \quad Q(Y)_t^n:=\sum_{i=2}^{n_t-1}(f(Y;1)_i^n)^2
 $$
 
 ## Getting Started
